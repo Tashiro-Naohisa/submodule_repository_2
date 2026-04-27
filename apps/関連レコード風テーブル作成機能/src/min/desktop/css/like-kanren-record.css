@@ -1,0 +1,43 @@
+/* 関連レコード風テーブル */
+.kanrenTable{
+   margin-bottom: 8px;
+   margin-left: 8px;
+}
+
+.kanrenTable td {
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.kanrenTable th,.kanrenTable td {
+    padding: 4px 8px;
+}
+
+.kanrenTable-label {
+    background-color: #3498db;
+    border-color: #3498db;
+    height: 40px;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.fa-chevron-right:hover,.fa-chevron-left:hover {
+    color: #3498db;
+}
+
+.fa-chevron-right,.fa-chevron-left {
+    color: silver;
+}
+
+.prev-page {
+    margin: 0px 20px 0px 8px;
+}
+
+.hidden {
+   visibility: hidden;
+}
