@@ -13,6 +13,7 @@
 jQuery.noConflict();
 (function ($, nokConfig, retConfig, sncLib) {
     "use strict";
+    // サブモジュール更新確認用の変更
 
     // 新規登録完了後イベント時のみ
     kintone.events.on([
